@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #fafafa;
+    font-size: 14px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+    background: #fff;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.ImgS {
+    width: 32px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 1.5px #e5e5e5;
+}
+
+.HeaderLinks {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.HeaderLinks a {
+    margin-left: 15px;
+
+}
+
+header input {
+    border-radius: 3px;
+    cursor: text;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 7px;
+    border: 1px solid #dbdbdb;
+    background: #fafafa;
+    text-align: center;
+}
+
+main {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.Aside {
+    flex: 4 1 450px;
+    margin-right: 40px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.AsideMenu {
+    flex: 1 0 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Story {
+    align-items: center;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.StoryUser {
+    display: flex;
+    flex-direction: column;
+}
+
+.StoryUser a{
+    text-decoration: none;
+    color: #262626;
+    margin-right: 5px;
+}
+
+.ImgInstagram {
+    width: 64px;
+    border-radius: 50%;
+
+    border: double 2.2px transparent;
+    border-radius: 50%;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, red, blue);
+}
+
+.feed {
+    display: flex;
+    flex-direction: column;
+
+    background: #fff;
+    border: 1px solid #dbdbdb;
+}
+
+.FeedHeader {
+    background: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #dbdbdb;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.LinkHeader {
+    text-decoration: none;
+    flex: 4 1 auto;
+    margin-left: 15px;
+    font-weight: 700;
+    color: #262626;
+}
+
+.FeedContent {
+    background: #fff;
+    padding: 80px;
+    border-bottom: 1px solid #dbdbdb;
+    text-align: center;
+}
+
+.FeedFooter {
+    padding: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MenuBox1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 13px;
+    align-items: center;
+}
+
+.MenuBox1 div {
+    flex-grow: 3;
+}
+
+.MenuBox1 p {
+    margin-left: 15px;
+    color: #8e8e8e;
+}
+
+.ImgMedia{ 
+    width: 64px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 1.5px #e5e5e5;
+}
+
+.ImgSemborda {
+    width: 32px;
+    border-radius: 50%;
+}
+
+.LinkAzul {
+    text-decoration: none;
+    color: #2f95f6;
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+.MenuBox3{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.MenuBox2 p {
+    color: #8e8e8e;
+    margin-left: 15px;
+}
+
+.MenuBox2 div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.MenuBox2 span:nth-child(1) {
+    flex-grow: 3;
+    color: #8e8e8e;
+    font-weight: 700;
+}
+
+.MenuBox3 {
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+
+.MenuBox3 div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #c7c7c7;
+}
+
+.MenuBox3 a {
+    color: #c7c7c7;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.MenuBox3 a:after {
+    content: '\00B7';
+    margin: 0 .25em 0 .5em;
+}
+
+.MenuBox3 p {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #c7c7c7;
+    align-self: center;
+}
